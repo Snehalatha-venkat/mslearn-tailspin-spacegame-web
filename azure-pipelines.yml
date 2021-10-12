@@ -35,7 +35,7 @@ steps:
   inputs:
   displayName: 'Run gulp tasks'
 
-- sript: 'echo "$(Build.DefinitionName),$(Build.BuildId), $(Build.BuildNumber)"> buildinfo.txt'
+- sript: 'echo "$(Build.DefinitionName),$(Build.BuildId), $(Build.BuildNumber)" > buildinfo.txt'
   displayName: 'Write Build Info'
   workingDirectory: TailSpin.SpaceGame.Web/wwwroot
   
